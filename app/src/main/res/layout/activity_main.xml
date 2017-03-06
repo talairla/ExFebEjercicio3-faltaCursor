@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.teo.exfebejercicio3.MainActivity">
+
+    <TextView
+        android:text="Programa los siguientes botones... (lee la descripción detallada en el comentario del código)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/lblEjercicio3" />
+
+    <Button
+        android:text="Crear Notificación Para Abrir Cámara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblEjercicio3"
+        android:layout_alignParentStart="true"
+        android:id="@+id/btnNotificacionCamara" />
+
+    <Button
+        android:text="Programar Alarma que suene un caballo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnNotificacionCamara"
+        android:layout_alignParentStart="true"
+        android:id="@+id/btnProgramarAlarma" />
+
+    <Button
+        android:text="Mostrar un Toast con Nombre de contacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnProgramarAlarma"
+        android:layout_alignParentStart="true"
+        android:id="@+id/btnToastContacto" />
+
+</RelativeLayout>
